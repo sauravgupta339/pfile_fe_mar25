@@ -29,7 +29,7 @@ $ git config --global user.email "sauravgupta339@gmail.com"
 Steps to create personal access token (PAT):
 1. In github click on profile icon
 2. Scroll down and click on settings
-3. In the new window sccroll down and click developers settings(bottom left corner)
+3. In the new window scroll down and click developers settings(bottom left corner)
 4. In the new window on top left click tokens and then select tokens classic
 5. In the new window click generate new token and select tokens classic
 6. NOTE: This PAT I have created for my learning purposes
@@ -44,7 +44,16 @@ Steps to sync remote repo with the local:
 $ git clone https://<PAT>github.com/sauravgupta339/pfile_fe_mar25
 
 
+Steps to update the remote repo(copy the files from local repo to remote repo):
+$ git add .
+In the above command the git will mark (will make list of) all the files that need to be updated in the remote repo(server)
+the above command marked staged
 
+$ git commit -m "relevant message"
+the above command creates an object that will have the copy of all the marked files (with security i.e. encryption).
 
+$ git push origin <branch name>
+example: git push origin main
+the above command pushes the file to the branch name
 
 Saurav Gupta

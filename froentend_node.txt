@@ -1,0 +1,50 @@
+bootstrap js and react notes
+day1 monday 17-03-2025
+
+Steps to create a new git repo:
+1. log in to github acount
+2. on top right on the window click on plus and select new repository
+3. give the name of the repo
+4. give the description of the repo
+5. make the repo public
+6. check on "Add a README file"
+7. click on "create repository"
+
+GIT COMMANDS:
+$ git status
+the above command is used to know the status of the repo which we are currently working in
+
+$ git clone https://github.com/sauravgupta339/pfile_fe_mar25
+the above command copies the repo from the server (remote repo) into our computer
+
+$ git pull origin main
+the above command downloads the updated repo from the server. "main" here is the defaault branch name
+
+$ git config --global user.name "sauravgupta339"
+
+$ git config --global user.email "sauravgupta339@gmail.com"
+
+
+
+Steps to create personal access token (PAT):
+1. In github click on profile icon
+2. Scroll down and click on settings
+3. In the new window sccroll down and click developers settings(bottom left corner)
+4. In the new window on top left click tokens and then select tokens classic
+5. In the new window click generate new token and select tokens classic
+6. NOTE: This PAT I have created for my learning purposes
+7. Click expiry and select no expiry
+8. Select the checkbox Repo
+9. Scroll down and click generate token
+10. Copy the PAT and mail to yourself (use a main subject git PAT)
+
+
+
+Steps to sync remote repo with the local:
+$ git clone https://<PAT>github.com/sauravgupta339/pfile_fe_mar25
+
+
+
+
+
+Saurav Gupta
